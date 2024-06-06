@@ -23,4 +23,4 @@ jobs:
           timeout: 10
           handler: foobar
           role: arn:aws:iam::xxxxxxxxxxx:role/test1234
-          runtime: nodejs12.x
+          runtime: nodejs20.x
