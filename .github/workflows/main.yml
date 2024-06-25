@@ -21,6 +21,6 @@ jobs:
           zip_file: deployment.zip
           memory_size: 128
           timeout: 10
-          handler: foobar
+          handler: index.mjs.handler
           role: arn:aws:iam::844686317146:role/service-role/primeiraFunCall-role-np4s0dnw
           runtime: nodejs20.x
