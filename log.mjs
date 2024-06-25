@@ -1,4 +1,4 @@
 export function log(mensagem){
-    console.log(process.env.ENVIROMENT)
+    console.log("enviroment: ", process.env.ENV)
     console.log(mensagem);
 }
