@@ -19,6 +19,6 @@ export const handler = async(event) => {
       log('Objeto muito grande')
       return 'Objeto muito grande'
     }
-    return 'Objet de tamanho OK'
+    return 'Objeto de tamanho OK'
 };
   
